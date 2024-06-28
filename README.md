@@ -16,7 +16,7 @@ An overnight render with depth-of-field:
 An older picture with a low sample count and resolution:  
 ![An overnight render](images/old_picture.png)
 
-An older timelapsed render:  
+The end of a render on an older version of the ray tracer, real-time:  
 
 [old_timelapse_smaller.webm](https://github.com/Glitch752/NspireRaytracer/assets/50056537/b684b811-df8e-4d3c-94d4-8f774f6df7b0)
 
