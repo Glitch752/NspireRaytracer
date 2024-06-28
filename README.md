@@ -14,13 +14,18 @@ An overnight render with depth-of-field:
 ![An overnight render](images/overnight_test_fixed.png)
 
 An older picture with a low sample count and resolution:  
-![An older picture with a low sample count and resolution](images/old_picture.png)
+![An overnight render](images/old_picture.png)
 
 An older timelapsed render:  
-![An older timelapsed render](images/old_timelapse.mp4)
 
-A timelapse of a progressive render (sorry it's sideways!):  
-![A timelapse of a progressive render](images/progressive_render.mp4)
+[old_timelapse_smaller.webm](https://github.com/Glitch752/NspireRaytracer/assets/50056537/b684b811-df8e-4d3c-94d4-8f774f6df7b0)
+
+A timelapse of a progressive render:  
+
+https://github.com/Glitch752/NspireRaytracer/assets/50056537/4b1a8337-65d9-4fd7-992b-83a57bdf6d8c
+
+
+
 
 ### Multithreaded computer version (using the same raytracer)
 A render of the same scene as above, but with a much higher resolution and rendered in a few minutes:  
