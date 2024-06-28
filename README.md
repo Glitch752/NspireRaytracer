@@ -3,9 +3,9 @@
 This repository includes a variety of directories related to my TI-Nspire ray tracer, which was based on the fantastic book [Ray Tracing in One Weekend](https://raytracing.github.io/) by Peter Shirley and contributors.
 
 ## Directory structure
-- `calculator/`: The original code written for my TI-Nspire CX II calculator, written in Python, dumped into a `.tns` file and exported.
-- `multithreaded/`: After dumping the ray tracer, I converted it to use the python PIL library and implemented multi-process multithreading to speed up the rendering process for large renders on my computer. **This uses the exact same underlying ray tracing logic as the calculator version, but with added multithreading and a different output method.**
-- `images/`: Images from all versions of the raytracer used in the samples below. Images are dumped using a modified version of the [`nspire-rs`](https://crates.io/crates/libnspire) crate, since the original crate does not properly work with my calculator. I may upload this as well after some cleanup.
+- `calculator/`: The original code written for my TI-Nspire CX II calculator, in Python, dumped into a `.tns` file and exported.
+- `multithreaded/`: After dumping the ray tracer, I converted it to use the Python PIL library and implemented multi-process multithreading to speed up rendering high-quality images on my computer. **This uses the exact same underlying ray tracing logic as the calculator version, but with added multithreading and a different output method.**
+- `images/`: Images from all versions of the raytracer used in the samples below. Some screenshots are dumped using a modified version of the [`nspire-rs`](https://crates.io/crates/libnspire) crate, since the original crate does not properly work with my calculator. I may upload this as well after some cleanup.
 
 ## Samples
 
@@ -23,7 +23,6 @@ An older timelapsed render:
 A timelapse of a progressive render:  
 
 https://github.com/Glitch752/NspireRaytracer/assets/50056537/4b1a8337-65d9-4fd7-992b-83a57bdf6d8c
-
 
 
 
