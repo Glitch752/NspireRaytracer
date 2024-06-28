@@ -20,9 +20,11 @@ An older timelapsed render:
 
 [old_timelapse_smaller.webm](https://github.com/Glitch752/NspireRaytracer/assets/50056537/b684b811-df8e-4d3c-94d4-8f774f6df7b0)
 
-A timelapse of a progressive render (sorry it's sideways!):  
+A timelapse of a progressive render:  
 
-https://github.com/Glitch752/NspireRaytracer/assets/50056537/b16ea5e0-5a71-48b6-adcd-a0469c6517b9
+https://github.com/Glitch752/NspireRaytracer/assets/50056537/4b1a8337-65d9-4fd7-992b-83a57bdf6d8c
+
+
 
 
 ### Multithreaded computer version (using the same raytracer)
