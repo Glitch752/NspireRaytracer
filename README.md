@@ -1,7 +1,9 @@
 # TI-NSpire Ray Tracer
 
-This repository includes a variety of directories related to my TI-Nspire ray tracer, which was based on the fantastic book [Ray Tracing in One Weekend](https://raytracing.github.io/) by Peter Shirley and contributors.  
-The entire raytracer was made on my TI-Nspire CX II, using the built-in keyboard, Python interpreter, and libraries. My Nspire isn't jailbroken, although I would love to play with the extra functionality that brings if the community ever finds a way to jailbreak higher OS versions!  
+This repository includes a variety of codebases related to my TI-Nspire Python ray tracer, which was based on the fantastic book [Ray Tracing in One Weekend](https://raytracing.github.io/) by Peter Shirley and contributors.  
+
+The entire raytracer was written, run, and debugged on my TI-Nspire CX II using the built-in keyboard, Python interpreter, and libraries. My Nspire isn't jailbroken, although I would love to play with the extra functionality if the community ever finds a way to jailbreak higher OS versions!  
+
 Additionally, I wasn't able to take screenshots of my calculator screen (or easily download the `.tns` file) with any existing solutions I could find, so I debugged where the communication with `libnspire` went wrong and adjusted `libnspire-rs` so it properly communicates. This is a _super_ hacky fix, and I adjusted the `libnspire` code in multiple places, so although I would like to eventually fix the upstream issue, I just uploaded my version here for it now. It's likely because my calculator is using a random OS version that isn't particularly new but isn't one of the old well-supported ones either.
 
 ## Directory structure
