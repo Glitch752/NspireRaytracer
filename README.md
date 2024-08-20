@@ -24,12 +24,12 @@ Additionally, I wasn't able to take screenshots of my calculator screen (or easi
 The implementation itself isn't super complicated, but it was a unique challenge to program a nontrivial program in such a limited environment. For example, the Nspire's Python editor only supports basic syntax highlighting (which can get tripped up by features as simple as escaped strings!), about 11 lines on the screen at once (you can technically decrease the font size, but the text becomes nearly unreadable), and a basic clipboard. I ran into RAM and stack size issues multiple times, so I needed to rewrite a few components to optimize for the limited resources. The ABCD-layout keyboard was something to get used to as well!
 
 <img alt="My TI-Nspire CX II, showing an open Python file." src="images/myNspire.jpg" width="30%">
-My TI-Nspire CX II.
+My TI-Nspire CX II, showing an open Python file.
 
 ## Samples
 
 ### Calculator version
-An overnight render with depth-of-field:  
+An overnight render with depth-of-field, exported with my patched `libnspire-rs` version:  
 ![An overnight render](images/overnight_test_fixed.png)
 
 An older picture with a low sample count and resolution:  
